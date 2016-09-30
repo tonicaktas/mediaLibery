@@ -30,7 +30,7 @@ include('inc/header.php'); ?>
   <div class="wrapper">
 
 	   <h1><?php if($section != null){
-        echo "<a href='catalog.php'>Full Catalog</a> &gt; ";
+        echo "<a href='catalog.php'>Full Catalog</a> &gt; ";// läger till > för säga vart man befiner sig.
      }
       echo $pageTitle; ?></h1>
 
